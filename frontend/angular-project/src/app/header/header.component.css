@@ -1,0 +1,19 @@
+.logo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 27px;
+}
+.header{
+    min-height: 100px;
+    display: block;
+    border: none;
+    background: -webkit-linear-gradient(-45deg,#ec5252,#6e1a52);
+    background: -moz-linear-gradient(-45deg,#ec5252 0,#6e1a52 100%);
+    background: -ms-linear-gradient(-45deg,#ec5252 0,#6e1a52 100%);
+    background: -o-linear-gradient(-45deg,#ec5252 0,#6e1a52 100%);
+    background: linear-gradient(-45deg,#ec5252,#6e1a52);
+}

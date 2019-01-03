@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+a{
+    cursor: pointer;
+}
+button.ui-button{
+    padding: 5px 30px;
+    color: #fff;
+    font-size: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 1px #fff;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow: 0px 0 0 #fff inset;
+    background: #474747;
+    cursor: pointer;  
+    border: 1px solid #474747;  
+}
+.ui-fileupload-buttonbar .ui-button{
+    margin: 0 20px
+}
+.ui-button:hover{
+    box-shadow: 300px 0 0 #fff inset;
+    color: #333;
+    border: 1px solid #474747;
+}
+button:disabled{
+ opacity: 0.5;
+ pointer-events: none;
+}
+.ui-button input{
+    margin: 30px;
+}
+.ui-fileupload .ui-fileupload-buttonbar .ui-button:first-child{
+    background: none;
+    border: 0;
+}
+.ui-fileupload .ui-fileupload-buttonbar .ui-button:first-child:hover{
+    border: 0;
+}
+.ui-fileupload-files span.ui-button-icon-left.ui-clickable.pi.pi-times:before {
+    content: "Cancel";
+}
+.ui-fileupload-choose .ui-button-text,.ui-fileupload-files .ui-button-text{
+    display: none !important;
+}
+.ui-fileupload.ui-widget{
+    border: 1px solid #919295;
+    padding: 0 45px;
+    border-radius: 7px;
+    margin-top: 45px;
+}
+.ui-fileupload-row{
+    display: inline-block;
+    padding: 30px;
+}
+.ui-fileupload-files{
+    margin-left: 33px;
+}
+.ui-button input:focus{
+ outline: 0
+}

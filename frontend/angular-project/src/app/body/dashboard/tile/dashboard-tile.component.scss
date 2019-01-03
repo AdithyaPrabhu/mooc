@@ -1,0 +1,150 @@
+// $color_green: #00A600;
+
+// .tile {  
+//   width: 100%;
+//   display: inline-block;
+//   box-sizing: border-box;
+//   padding: 13px 20px 0 0;
+//   font-size: 13px;
+//     .title {
+//           margin-top: 0px;
+//       }
+    
+//     &.green {
+//       color: #fff;
+//     }
+    
+
+//     &.green {
+//       background: $color_green;
+  
+//           &:hover {
+//               background: darken($color_green, 10%);
+//           }		
+//     }
+    
+//   }
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #c6c6d0;
+  position: absolute;
+  left: -11px;
+}
+.checked {
+  color: orange;
+}
+.main-container{
+  position: relative;
+}
+.popup-wrapper{
+  display: none;
+  overflow: auto;
+  position: absolute;
+  box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+  height: 330px;
+  width: 330px;
+  top: 0;
+  left: 105%;
+  z-index: 999;
+  padding: 15px;
+  background: #fff;
+  border-radius: 6px;
+}
+.fa.fa-heart-o{
+  color: #ec5252;
+  font-size: 24px;
+  margin: 0 35px;
+  vertical-align: middle;
+}
+.btn-wrapper{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.content-box:hover > .popup-wrapper{
+  display: block;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ec5252;
+  border: 1px solid transparent;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #992337;
+  border-color: transparent;
+}
+.content-box{
+  box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+  height: 330px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  p{
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+}
+.title-wrap{
+  min-height: 42px;
+  height: 42px;
+  line-height: 42px;
+}
+.title{
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-weight: 600;
+  height: 36px;
+  min-height: 42px;
+  font-size: 15px;
+}
+.summary{
+  font-size: 13px;
+  color: #92969c;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-weight: 600;
+  height: 36px;
+  min-height: 42px;
+  font-size: 15px;
+}
+.instructor{
+  font-size: 12px;
+    color: #686f7a;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.rating{
+  font-weight: 600;
+  color: #505763;
+}
+.price{
+  color: #29303b;
+  font-size: 17px;
+  font-weight: 600;
+}
+img{
+  display: block;
+  height: 122px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 1px 0 0 hsla(220,7%,92%,.5);
+  width: 100%;
+  -webkit-filter: sepia(.1) grayscale(.1) saturate(.8);
+  filter: sepia(.1) grayscale(.1) saturate(.8);
+}
+.content-wrapper {
+  padding: 10px 15px;
+}

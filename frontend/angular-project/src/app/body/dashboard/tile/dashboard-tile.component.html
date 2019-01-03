@@ -1,0 +1,38 @@
+<div class="main-container">
+    <div class="content-box">
+        <a class="tile">
+            <div class="wrapper">
+                <img src="{{tileData.imageUrl}}" alt="img" />
+                <!-- <div class="img-div"></div> -->
+                <div class="content-wrapper">
+                    <div class="title-wrap">
+                        <p class="title">{{tileData.title}}</p>
+                    </div>
+                    <p class="summary">{{tileData.summary}}</p>
+                    <p>
+                        <span class="instructor" *ngFor="let instructor of tileData.instructors">{{instructor+' - '}}</span>
+                    </p>
+                    <p class="rating">
+                        <span *ngFor="let checked of populateStarRating()">
+                                <span *ngIf="checked" class="fa fa-star checked"></span>    
+                                <span *ngIf="!checked" class="fa fa-star"></span>    
+                        </span>
+                        {{tileData.rating}}</p>
+                    <p class="price text-right">&#8377;{{tileData.price}}</p>
+                </div>
+            </div>
+        </a>
+        <div class="popup-wrapper">
+            <div class="arrow-left"></div>
+            <p class="title">{{tileData.title}}</p>
+            <p>Category:{{tileData.category}}</p>
+            <p>Difficulty Level:{{tileData.difficulty}}</p>
+            <p>Time Required:{{tileData.hours}}</p>
+            <p  class="summary">{{tileData.longDescription}}</p>
+            <div class="btn-wrapper text-center">
+                <button class="btn btn-primary">Add to cart</button>
+                <i class="fa fa-heart-o"></i>
+            </div>
+        </div>
+    </div>
+</div>

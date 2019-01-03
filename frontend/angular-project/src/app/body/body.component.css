@@ -1,0 +1,23 @@
+.next-btn{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 14px 50px;
+    color: #f49325;
+    font-size: 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #f49325;
+    font-weight: 700;
+    box-shadow: 0 0 1px #f49325;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow: 0px 0 0 #f49325 inset;
+    background: #fff;
+    cursor: pointer
+}
+.next-btn:hover{
+    box-shadow: 300px 0 0 #f49325 inset;
+    color: #fff;
+}
