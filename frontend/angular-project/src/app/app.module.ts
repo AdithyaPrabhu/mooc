@@ -16,6 +16,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { CourseDetailsService } from 'src/app/body/course-details/course-details.service';
 import { InstructorProfileComponent } from './body/instructor-profile/instructor-profile.component';
 import { InstructorProfileService } from 'src/app/body/instructor-profile/instructor-profile.service';
+import { HttpClientModule } from '@angular/common/http';
+import { CourseDetailsHeaderComponent } from 'src/app/body/course-details/course-details-header/course-details-header.component';
+import { CourseContentsComponent } from 'src/app/body/course-details/course-contents/course-contents.component';
+import { CourseRequirementsComponent } from './body/course-details/course-requirements/course-requirements.component';
+import { CourseReviewsComponent } from './body/course-details/course-reviews/course-reviews.component';
+import { FeaturedReviewsComponent } from './body/course-details/course-reviews/featured-reviews/featured-reviews.component';
+import { CourseRateCardComponent } from './body/course-details/course-rate-card/course-rate-card.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +34,19 @@ import { InstructorProfileService } from 'src/app/body/instructor-profile/instru
     FileUploadComponent,
     BodyComponent,
     CourseDetailsComponent,
-    InstructorProfileComponent
+    InstructorProfileComponent,
+    CourseDetailsHeaderComponent,
+    CourseContentsComponent,
+    CourseRequirementsComponent,
+    CourseReviewsComponent,
+    FeaturedReviewsComponent,
+    CourseRateCardComponent
   ],
   imports: [
     BrowserModule,
     FileUploadModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     DashboardService,
