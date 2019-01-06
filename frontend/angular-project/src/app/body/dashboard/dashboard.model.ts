@@ -1,7 +1,7 @@
 export interface Tile {
     courseId: string;
     title: string;
-    category: string;
+    category: string[];
     summary: string;
     longDescription: string;
     instructors: string[];

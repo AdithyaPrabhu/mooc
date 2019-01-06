@@ -12,12 +12,13 @@
                     <p>
                         <span class="instructor" *ngFor="let instructor of tileData.instructors">{{instructor+' - '}}</span>
                     </p>
-                    <p class="rating">
+                    <!-- <p class="rating">
                         <span *ngFor="let checked of populateStarRating()">
                                 <span *ngIf="checked" class="fa fa-star checked"></span>    
                                 <span *ngIf="!checked" class="fa fa-star"></span>    
                         </span>
-                        {{tileData.rating}}</p>
+                        {{tileData.rating}}</p> -->
+                        <app-star-rating [starRating]="tileData.rating"></app-star-rating>
                     <p class="price text-right">&#8377;{{tileData.price}}</p>
                 </div>
             </div>
@@ -25,7 +26,7 @@
         <div class="popup-wrapper">
             <div class="arrow-left"></div>
             <p class="title">{{tileData.title}}</p>
-            <p>Category:{{tileData.category}}</p>
+            Category:<p *ngFor="let category of tileData.category">{{category}}</p>
             <p>Difficulty Level:{{tileData.difficulty}}</p>
             <p>Time Required:{{tileData.hours}}</p>
             <p  class="summary">{{tileData.longDescription}}</p>

@@ -23,6 +23,7 @@ import { CourseRequirementsComponent } from './body/course-details/course-requir
 import { CourseReviewsComponent } from './body/course-details/course-reviews/course-reviews.component';
 import { FeaturedReviewsComponent } from './body/course-details/course-reviews/featured-reviews/featured-reviews.component';
 import { CourseRateCardComponent } from './body/course-details/course-rate-card/course-rate-card.component';
+import { StarRatingComponent } from 'src/app/shared/components/star-rating/star-rating.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CourseRateCardComponent } from './body/course-details/course-rate-card/
     CourseRequirementsComponent,
     CourseReviewsComponent,
     FeaturedReviewsComponent,
-    CourseRateCardComponent
+    CourseRateCardComponent,
+    StarRatingComponent
   ],
   imports: [
     BrowserModule,

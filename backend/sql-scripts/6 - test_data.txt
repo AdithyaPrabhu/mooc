@@ -1,0 +1,27 @@
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basics of JavaScript',1);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basic understanding of Computer Programming',2);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basics of R',2);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basic understanding of Computer Programming',3);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('General Idea regarding functional programming',3);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basic understanding of Computer programming',4);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Experience in developing web applications',4);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('General understanding of the workings of internet',4);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('General understanding of architecture of large scale applications',5);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basic knowledge of Micro Services',5);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Experience in programming with any cloud operator',5);
+
+INSERT INTO COURSE_REQUIREMENT (REQUIREMENT, COURSE_ID) VALUES ('Basic idea regarding cloud technology',5);
+
+
+
+Select * from COURSE_REQUIREMENT;

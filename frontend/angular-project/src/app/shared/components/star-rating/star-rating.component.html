@@ -1,0 +1,7 @@
+<p class="rating">
+    <span *ngFor="let checked of populateStarRating()">
+        <span *ngIf="checked" class="fa fa-star checked"></span>
+        <span *ngIf="!checked" class="fa fa-star"></span>
+    </span>
+    <!-- {{starRating}} -->
+</p>

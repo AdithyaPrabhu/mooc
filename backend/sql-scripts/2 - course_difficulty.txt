@@ -1,0 +1,3 @@
+CREATE TABLE COURSE_DIFFICULTY (ID INT auto_increment,
+LEVEL varchar(100),primary key(ID)
+);

@@ -1,0 +1,1 @@
+drop table COURSE_CATEGORIES;

@@ -1,0 +1,9 @@
+CREATE TABLE COURSE_CATEGORIES (
+	
+ID INT auto_increment,
+    
+CATEGORY varchar(100),
+    
+primary key(ID)
+
+);

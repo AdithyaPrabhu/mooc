@@ -1,0 +1,13 @@
+CREATE TABLE COURSE_REQUIREMENT (
+	
+ID INT auto_increment,
+    
+REQUIREMENT varchar(100),
+    
+COURSE_ID INT NOT NULL,
+    
+foreign key(COURSE_ID) references COURSE_DETAILS (ID),
+    
+primary key(ID)
+
+);

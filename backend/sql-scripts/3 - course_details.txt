@@ -1,0 +1,21 @@
+CREATE TABLE COURSE_DETAILS(
+	
+ID INT auto_increment,
+    
+TITLE VARCHAR(255),
+    
+SUMMARY TEXT,
+    
+DESCRIPTION TEXT,
+    
+TILE_IMAGE_URL varchar(255),
+    
+COURSE_DIFFICULTY INT NOT NULL,
+    
+PRICE int,
+    
+foreign key(COURSE_DIFFICULTY) references COURSE_DIFFICULTY (ID),
+    
+primary key(ID)
+
+);

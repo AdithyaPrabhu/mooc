@@ -6,14 +6,14 @@ public class DashboardTile {
 	private int rating;
 	private int price;
 	private String summary;
-	private String category;
+	private String[] category;
 	private String longDescription;
 	private String difficulty;
 	private int hours;
 	private String courseId;
 	private String imageUrl;
 
-	public DashboardTile(String title, String[] instructors, int rating, int price, String summary, String category,
+	public DashboardTile(String title, String[] instructors, int rating, int price, String summary, String[] category,
 			String longDescription, String difficulty, int hours, String courseId, String imageUrl) {
 		super();
 		this.title = title;
@@ -41,10 +41,10 @@ public class DashboardTile {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getCategory() {
+	public String[] getCategory() {
 		return category;
 	}
-	public void setCategory(String category) {
+	public void setCategory(String[] category) {
 		this.category = category;
 	}
 	public String getSummary() {

@@ -1,0 +1,15 @@
+CREATE TABLE COURSE_DETAILS_CATEGORY_MAPPING(
+	
+ID INT auto_increment,
+    
+CATEGORY INT(100) not null,
+    
+COURSE_ID INT NOT NULL,
+	
+foreign key(CATEGORY) references COURSE_CATEGORIES (ID),
+    
+foreign key(COURSE_ID) references COURSE_DETAILS (ID),
+    
+primary key(ID)
+
+);

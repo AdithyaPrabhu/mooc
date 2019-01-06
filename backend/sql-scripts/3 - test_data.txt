@@ -1,0 +1,19 @@
+INSERT INTO COURSE_DETAILS ( TITLE,SUMMARY,DESCRIPTION,TILE_IMAGE_URL,COURSE_DIFFICULTY, PRICE)
+VALUES ( 'JavaScript Design Patterns','Write better code by learning about the standard design patterns in JS','Every developer strives to write maintainable, readable, and reusable code. Code structuring becomes more important as applications become larger. Design patterns prove crucial to solving this challenge - providing an organization structure for common issues in a particular circumstance.','https://cdn-images-1.medium.com/max/1600/1*HP8l7LMMt7Sh5UoO1T-yLQ.png',2,6000);
+
+INSERT INTO COURSE_DETAILS ( TITLE,SUMMARY,DESCRIPTION,TILE_IMAGE_URL,COURSE_DIFFICULTY, PRICE)
+VALUES ( 'Intro to AI/ML','Introductory course to AI and ML using R','Artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.','http://constems-ai.com/wp-content/uploads/2017/07/AI-and-ML-explained.jpg',1,8500);
+
+INSERT INTO COURSE_DETAILS ( TITLE,SUMMARY,DESCRIPTION,TILE_IMAGE_URL,COURSE_DIFFICULTY, PRICE)
+VALUES ( 'Learn GoLang in 25 hours',"Go from zero to hero in Google's GoLang in 30 hours",'Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.','https://cdn-images-1.medium.com/max/1600/1*yh90bW8jL4f8pOTZTvbzqw.png',1,3500);
+
+INSERT INTO COURSE_DETAILS ( TITLE,SUMMARY,DESCRIPTION,TILE_IMAGE_URL,COURSE_DIFFICULTY, PRICE)
+VALUES ( 'Web Assembly','Introductory course to web assembly','WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.','https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Web_Assembly_Logo.svg/220px-Web_Assembly_Logo.svg.png',1,7000);
+
+INSERT INTO COURSE_DETAILS ( TITLE,SUMMARY,DESCRIPTION,TILE_IMAGE_URL,COURSE_DIFFICULTY, PRICE)
+VALUES ( 'Introduction to Native Cloud Application Architecture','Build and deploy an app from the scratch completely on AWS','Cloud native is an approach to building and running applications that fully exploit the advantages of the cloud computing model.','https://container-solutions.com/content/uploads/2017/05/cloud.png',3,5000);
+
+
+
+
+select * FROM COURSE_DETAILS;
